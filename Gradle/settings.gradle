@@ -1,0 +1,6 @@
+rootProject.name = 'Gradle'
+include ':Gradle-child'
+include ':Gradle-parent'
+
+project(':Gradle-child').projectDir = "$rootDir/Gradle-child" as File
+project(':Gradle-parent').projectDir = "$rootDir/Gradle-parent" as File
