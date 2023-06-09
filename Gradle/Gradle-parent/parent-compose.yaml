@@ -1,0 +1,5 @@
+tomcat:
+  image: parentimage
+  ports:
+    - "5639:8080"
+  container_name: tomcat
